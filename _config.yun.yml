@@ -1,0 +1,148 @@
+banner: # 标语动画
+  enable: true
+  title:
+    - 我
+    - 心
+    - 潮
+    - 澎
+    - 湃
+  border: false
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+notice: # 公告
+  enable: true
+  content: 人生的意义在于追求，而不是结果。
+
+favicon: /favicon.ico
+
+
+avatar: # 头像
+  enable: true
+  url: /images/whopxx.jpeg
+  rounded: true # 是否圆形头像
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 😭
+    message: 前路漫漫
+
+bg_image: # 背景图片
+  enable: true
+  # url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
+  url: /images/bg.jpg
+  # dark: /images/bbg.png
+  blur: 3px # 设置背景模糊程度
+  opacity: 0.7
+
+
+# 懒加载
+lazyload:
+  enable: true
+
+# 运行时间
+footer:
+  since: 2025
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: '2025-05-12T00:00:00'
+
+engine_search:
+  enable: false
+
+# search
+# https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
+
+wordcloud:
+  enable: true
+
+fireworks: # 烟花
+  enable: true
+  colors:
+    - '102, 167, 221'
+    - '62, 131, 225'
+    - '33, 78, 194'
+
+cursor:
+  enable: true
+  default: https://cdn.yunyoujun.cn/css/md-cursors/pointer.cur
+  pointer: https://cdn.yunyoujun.cn/css/md-cursors/link.cur
+  text: https://cdn.yunyoujun.cn/css/md-cursors/text.cur
+
+# 打赏
+reward:
+  enable: false
+
+
+
+social:
+  # - name: RSS
+  #   # set rss in your root config
+  #   # https://github.com/hexojs/hexo-generator-feed
+  #   link: /atom.xml # config.feed.path
+  #   icon: ri:rss-line
+    # color: orange
+  - name: GitHub
+    link: https://github.com/whopxxx
+    icon: ri:github-line
+    color: '#181717'
+  - name: E-Mail
+    link: mailto:2074447320@qq.com
+    icon: ri:mail-line
+    color: '#8E71C1'
+  # - name: 微博
+  #   link: https://weibo.com/jizhideyunyoujun
+  #   icon: ri:weibo-line
+  #   color: '#E6162D'
+  # - name: 豆瓣
+  #   link: https://www.douban.com/people/yunyoujun/
+  #   icon: ri:douban-line
+  #   color: '#007722'
+  # - name: 网易云音乐
+  #   link: https://music.163.com/#/user/home?id=247102977
+  #   icon: ri:netease-cloud-music-line
+  #   color: '#C10D0C'
+  # - name: 知乎
+  #   link: https://www.zhihu.com/people/yunyoujun/
+  #   icon: ri:zhihu-line
+  #   color: '#0084FF'
+  # - name: 哔哩哔哩动画
+  #   link: https://space.bilibili.com/1579790
+  #   icon: ri:bilibili-line
+  #   color: '#FF8EB3'
+  # - name: 微信公众号
+  #   link: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg
+  #   icon: ri:wechat-2-line
+  #   color: '#1AAD19'
+  # - name: Twitter
+  #   link: https://twitter.com/YunYouJun
+  #   icon: ri:twitter-line
+  #   color: '#1da1f2'
+  # - name: Telegram
+  #   link: https://t.me/YunYouJun
+  #   icon: ri:telegram-line
+  #   color: '#0088CC'
+  # - name: Telegram Channel
+  #   link: https://t.me/elpsycn
+  #   icon: ri:telegram-fill
+  #   color: '#0088CC'
+  # - name: Travelling
+  #   link: https://www.travellings.cn/go.html
+  #   icon: ri:send-plane-2-line
+  #   color: black
+
+# colors: # 主题色
+#   primary: '#6200ee'
+#   # bg: "#F5F5F5"
+#   selection_bg: '#8e71c1' # 选取文字时的背景色
+#   # 标签云中标签的起始色和结束色
+#   # tag_start_color:
+#   # tag_end_color:
