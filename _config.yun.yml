@@ -13,6 +13,8 @@ banner: # 标语动画
   go_down:
     enable: true
     icon: ri:arrow-down-s-line
+
+    
 notice: # 公告
   enable: true
   content: 人生的意义在于追求，而不是结果。
@@ -82,6 +84,11 @@ reward:
   enable: false
 
 
+# 编辑链接
+post_edit:
+  enable: true
+  url: https://github.com/whopxxx/whopxx-blog/tree/main/source/
+  
 
 social:
   # - name: RSS
